@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="body"></div>
+        <div class="footer"></div>
+    </div>
+</body>
+<style>
+    .container{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: flex;
+    }
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: lightgreen;
+    }
+    .body{
+        width: 100%;
+        height: calc(100% - 200px);
+        background-color: skyblue;
+    }
+    .footer{
+        width: 100%;
+        height: 100px;
+        background-color: purple;
+        position: absolute;
+        bottom: 0;
+    }
+    
+</style>
+</html>

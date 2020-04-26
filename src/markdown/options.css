@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+}
+tr:nth-child(2n+1){
+    background-color: rgb(233, 233, 233);
+}
+
+code{
+    background-color: rgb(223, 221, 221);
+    width: 80%;
+    
+}
