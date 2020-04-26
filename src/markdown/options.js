@@ -3,7 +3,7 @@ import './options.css';
 
 var lexer = new marked.Lexer();
 
-lexer.rules.table = /^ *\|(.+)\n *\|?( *[-:]+[-| :]*)(?:\n((?: *[^>\n ].*(?:\n|$))*)\n*|$)/
+lexer.tokenizer.rules.table = /^ *\|(.+)\n *\|?( *[-:]+[-| :]*)(?:\n((?: *[^>\n ].*(?:\n|$))*)\n*|$)/
 
 // console.log(marked.parser(lexer.lex('|something|')));
 
