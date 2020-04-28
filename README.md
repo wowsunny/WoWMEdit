@@ -1,4 +1,4 @@
-# MEdit
+# wowMEdit
 
 一款桌面所及即所得的markdown编辑器。
 
